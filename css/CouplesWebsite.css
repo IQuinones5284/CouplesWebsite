@@ -352,3 +352,24 @@ form table td button:hover {
         gap: 30px; /* Ensure spacing between items is larger on bigger screens */
     }
 }
+.featured-video {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.featured-video h3 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.featured-video video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featured-video p {
+    margin-top: 10px;
+    color: #4a4a4a;
+}
