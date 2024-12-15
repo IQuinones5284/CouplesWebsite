@@ -1,53 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Specifies that this document uses HTML5 and sets the language to English -->
         <meta charset="UTF-8">
+        <!-- Ensures proper rendering and scaling on different devices -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Couples Date Ideas</title>
+        <!-- Links an external CSS file located in the "css" folder -->
         <link rel="stylesheet" href="./css/CouplesWebsite.css">
     </head>
     <body onload="showWelcomeMessage()">
+        <!-- The onload attribute runs the "showWelcomeMessage" function defined in an external JavaScript file -->
         <header>
+            <!-- Main title and subtitle for the website -->
             <h1>Couples Connect</h1>
             <h2>By Isaiah Quinones</h2>
         </header>
         <div class="container">
             <nav class="navcontainer">
+                <!-- Navigation links to various sections of the website -->
                 <a href="./index.html">Main</a>
                 <a href="./pages/adventure.html">Adventure</a>
                 <a href="./pages/food.html">Food</a>
                 <a href="./pages/rankings.html">Ranking</a>
                 <a href="./pages/sports.html">Sports</a>
             </nav>
+            <!-- Non-breaking space used for spacing between the nav and main content -->
             &nbsp;
             <main>
+                <!-- Hero image displayed prominently at the top of the main content -->
                 <img src="./images/couplesDate.jpg" alt="A happy couple enjoying a sunset" class="hero-image">
                 <h1>Welcome to Couples Connect</h1>
+                <!-- Introductory paragraph explaining the purpose of the website -->
                 <p>Looking for the perfect date idea? We've got you covered! Whether you're into adventure, romance, or fun on a budget, you'll find the inspiration you need to make your time together unforgettable.</p>
+                <!-- A smaller decorative image or animated GIF -->
                 <img src="./images/romantic.jpg" alt="A gif of a couple holding hands" class="gif1">
                 <section>
                     <h2>Featured Categories</h2>
+                    <!-- A list of categories with a brief description of each -->
                     <ul>
                         <li><strong>Adventures:</strong> Skydiving, hiking, kayaking, and more.</li>
-                        <li><strong>Food:</strong> some of the best food in town!</li>
+                        <li><strong>Food:</strong> Some of the best food in town!</li>
                         <li><strong>Rankings:</strong> Our best choices ranked for you!</li>
-                        <li><strong>Sports:</strong> best couples sports activities!</li>
+                        <li><strong>Sports:</strong> Best couples sports activities!</li>
                     </ul>
                 </section>
                 <section>
                     <h3>Stay in Touch</h3>
+                    <!-- Call-to-action encouraging users to sign up for a newsletter -->
                     <p>Sign up for our newsletter to get the latest and greatest date ideas sent straight to your inbox!</p>
                 </section>
             </main>
         </div>
         <footer>
+            <!-- Footer content with copyright information -->
             <p>&copy; 2024 Couples Connect. All rights reserved.</p>
+            <!-- Email link for user feedback -->
             <a href="mailto:dateideas@example.com">Email us with your ideas or feedback</a>
+            <!-- Displays the current date dynamically -->
             <p id="current-date"></p>
             <script>
                 document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+                // Dynamically inserts the current date in the footer using JavaScript
             </script>
         </footer>
+        <!-- Links to an external JavaScript file for additional interactivity -->
         <script src="./scripts/welcome.js"></script>
     </body>
 </html>

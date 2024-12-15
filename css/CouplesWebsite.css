@@ -1,36 +1,36 @@
 /* New CSS for final project */
 body, h1, h2, h3, h4, p, ul, li, a {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Includes padding and border in element size */
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #ffecd2, #fcb69f);
-    color: #4a4a4a;
-    line-height: 1.6;
-    padding: 0 15px;
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    background: linear-gradient(to right, #ffecd2, #fcb69f); /* Gradient for a soft background */
+    color: #4a4a4a; /* Neutral gray for text */
+    line-height: 1.6; /* Improves readability */
+    padding: 0 15px; /* Adds spacing around the page */
 }
 
 header {
-    text-align: center;
-    background-color: #ff6f61;
-    color: white;
-    padding: 20px 10px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers header content */
+    background-color: #ff6f61; /* Vibrant header color */
+    color: white; /* High contrast text */
+    padding: 20px 10px; /* Adds spacing */
+    border-radius: 5px; /* Softens edges */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header h1 {
-    font-size: 2.5em;
-    font-weight: bold;
+    font-size: 2.5em; /* Large for emphasis */
+    font-weight: bold; /* Stands out */
 }
 
 header h2 {
-    font-size: 1.2em;
-    font-weight: normal;
-    margin-top: 10px;
+    font-size: 1.2em; /* Smaller subtitle */
+    font-weight: normal; /* Less emphasized */
+    margin-top: 10px; /* Separates from h1 */
 }
 
 .container {
@@ -42,27 +42,27 @@ header h2 {
 }
 
 nav.navcontainer {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    background-color: #ff867c;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Centers links */
+    gap: 15px; /* Spacing between links */
+    background-color: #ff867c; /* Slightly lighter background */
+    padding: 10px; /* Adds internal spacing */
+    border-radius: 5px; /* Matches header */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
 }
 
 nav.navcontainer a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background: #ffb3a7;
-    transition: all 0.3s ease;
+    text-decoration: none; /* Removes underline */
+    color: white; /* High visibility */
+    font-weight: bold; /* Stands out */
+    padding: 10px 20px; /* Enlarges clickable area */
+    border-radius: 5px; /* Soft edges */
+    background: #ffb3a7; /* Contrasts with nav background */
+    transition: all 0.3s ease; /* Smooth hover effect */
 }
 
 nav.navcontainer a:hover {
-    background: #ff6f61;
+    background: #ff6f61; /* Highlights on hover */
     color: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -178,11 +178,11 @@ footer a:hover {
 
 /* Adventures Page Styles */
 .sports-page {
-    background: linear-gradient(to right, #f1f8ff, #cce7ff);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #f1f8ff, #cce7ff); /* Subtle gradient */
+    border-radius: 10px; /* Rounded edges */
+    padding: 20px; /* Internal spacing */
+    text-align: center; /* Centers content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .sports-page .intro {
@@ -190,12 +190,12 @@ footer a:hover {
 }
 
 .sports-page .sport {
-    margin-bottom: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    border: 1px solid #92c3f7;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Spacing between cards */
+    padding: 20px; /* Internal spacing */
+    background: white; /* Neutral background */
+    border-radius: 10px; /* Rounded edges */
+    border: 1px solid #92c3f7; /* Subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
 }
 
 .sports-page .sport h2 {
@@ -213,10 +213,10 @@ footer a:hover {
 }
 
 .ranking-bubbles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Internal spacing */
 }
 
 .ranking.bubble {
@@ -244,11 +244,11 @@ footer a:hover {
 }
 /* Form Styles */
 form {
-    margin-top: 30px;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Separates from content */
+    padding: 20px; /* Internal spacing */
+    background: #f9f9f9; /* Neutral background */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 form table {
@@ -290,12 +290,12 @@ form table td button:hover {
 }
 /* Adventures Page Styles */
 .adventures {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Restricts width */
+    margin: 0 auto; /* Centers content */
+    padding: 20px; /* Internal spacing */
+    background: #fff; /* White background */
+    border-radius: 10px; /* Softens edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle depth */
 }
 
 .adventures h1 {
@@ -315,14 +315,13 @@ form table td button:hover {
 .adventure-circle {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
-    background-color: #ff867c;
-    display: flex;
+    border-radius: 50%; /* Circular shape */
+    background-color: #ff867c; /* Contrasting background */
+    display: flex; /* Centers content */
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effects */
 }
 
 .adventure-circle:hover {

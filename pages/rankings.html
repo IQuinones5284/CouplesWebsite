@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Specifies the document type as HTML5 and sets the language to English -->
     <meta charset="UTF-8">
+    <!-- Ensures proper rendering and scaling on different devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Date Rankings</title>
+    <!-- Links the external CSS file for consistent styling -->
     <link rel="stylesheet" href="../css/CouplesWebsite.css">
 </head>
 <body>
     <header>
+        <!-- Main page title and subtitle, introducing the content -->
         <h1>Top 4 Date Ideas</h1>
         <h2>By Isaiah Quinones</h2>
     </header>
     <div class="container">
         <nav class="navcontainer">
+            <!-- Navigation links to other pages of the website -->
+            <!-- Relative paths to ensure navigation works; files must match the directory structure -->
             <a href="../index.html">Main</a>
             <a href="./adventure.html">Adventures</a>
             <a href="./food.html">Food</a>
@@ -21,13 +27,16 @@
         </nav>
         <main class="rankings-page">
             <section class="intro">
+                <!-- Introduction section for rankings page -->
                 <h1>Best Date Ideas Ranked</h1>
                 <p>Here are the top date ideas based on our recommendations, including some sponsored options to make your day even more special.</p>
             </section>
 
             <section class="ranking-bubbles">
+                <!-- Rankings displayed as separate articles -->
                 <article class="ranking bubble">
                     <h2>1. Mini Golf</h2>
+                    <!-- Sponsored information is disclosed here -->
                     <p>Fun and engaging, mini-golf is perfect for couples looking for a playful activity. <strong>Sponsored by: Golf Adventures</strong></p>
                 </article>
 
@@ -43,27 +52,33 @@
 
                 <article class="ranking bubble">
                     <h2>4. Stargazing Picnic</h2>
+                    <!-- Note: Non-sponsored item included in the rankings -->
                     <p>Pack a cozy blanket and enjoy a night under the stars for a romantic and budget-friendly date idea.</p>
                 </article>
             </section>
 
             <section>
                 <h2>Submit Your Own Ranking</h2>
+                <!-- Form to allow users to submit their own rankings -->
                 <form action="submit_rankings.php" method="post">
                     <table>
                         <tr>
+                            <!-- Label and input for user's name -->
                             <td><label for="name">Your Name:</label></td>
                             <td><input type="text" id="name" name="name" required></td>
                         </tr>
                         <tr>
+                            <!-- Label and input for user's email -->
                             <td><label for="email">Your Email:</label></td>
                             <td><input type="email" id="email" name="email" required></td>
                         </tr>
                         <tr>
+                            <!-- Label and textarea for user's suggested ranking -->
                             <td><label for="ranking">Suggested Ranking:</label></td>
                             <td><textarea id="ranking" name="ranking" rows="4" required></textarea></td>
                         </tr>
                         <tr>
+                            <!-- Submit button spans both columns for a full-width button -->
                             <td colspan="2"><button type="submit">Submit Ranking</button></td>
                         </tr>
                     </table>
@@ -72,7 +87,9 @@
         </main>
     </div>
     <footer>
+        <!-- Footer content with copyright -->
         <p>&copy; 2024 Top Date Rankings. All rights reserved.</p>
+        <!-- Email link for feedback or suggestions -->
         <a href="mailto:dateideas@example.com">Email us with your ideas or feedback</a>
     </footer>
 </body>
