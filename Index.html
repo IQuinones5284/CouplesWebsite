@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Couples Date Ideas</title>
+        <link rel="stylesheet" href="./css/CouplesWebsite.css">
+    </head>
+    <body onload="showWelcomeMessage()">
+        <header>
+            <h1>Couples Connect</h1>
+            <h2>By Isaiah Quinones</h2>
+        </header>
+        <div class="container">
+            <nav class="navcontainer">
+                <a href="./index.html">Main</a>
+                <a href="./pages/adventure.html">Adventure</a>
+                <a href="./pages/food.html">Food</a>
+                <a href="./pages/rankings.html">Ranking</a>
+                <a href="./pages/sports.html">Sports</a>
+            </nav>
+            &nbsp;
+            <main>
+                <img src="./images/couplesDate.jpg" alt="A happy couple enjoying a sunset" class="hero-image">
+                <h1>Welcome to Couples Connect</h1>
+                <p>Looking for the perfect date idea? We've got you covered! Whether you're into adventure, romance, or fun on a budget, you'll find the inspiration you need to make your time together unforgettable.</p>
+                <img src="./images/romantic.jpg" alt="A gif of a couple holding hands" class="gif1">
+                <section>
+                    <h2>Featured Categories</h2>
+                    <ul>
+                        <li><strong>Adventures:</strong> Skydiving, hiking, kayaking, and more.</li>
+                        <li><strong>food:</strong> some of the best food in town!</li>
+                        <li><strong>Rankings:</strong> Our best choices ranked for you!</li>
+                        <li><strong>Sports:</strong> best couples sports activities!</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Stay in Touch</h3>
+                    <p>Sign up for our newsletter to get the latest and greatest date ideas sent straight to your inbox!</p>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>&copy; 2024 Couples Connect. All rights reserved.</p>
+            <a href="mailto:dateideas@example.com">Email us with your ideas or feedback</a>
+            <p id="current-date"></p>
+            <script>
+                document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+            </script>
+        </footer>
+        <script src="./scripts/welcome.js"></script>
+    </body>
+</html>

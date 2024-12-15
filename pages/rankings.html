@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Date Rankings</title>
+    <link rel="stylesheet" href="/couplesWebsite/css/CouplesWebsite.css">
+</head>
+<body>
+    <header>
+        <h1>Top 4 Date Ideas</h1>
+        <h2>By Isaiah Quinones</h2>
+    </header>
+    <div class="container">
+        <nav class="navcontainer">
+            <a href="../index.html">Main</a>
+            <a href="adventure.html">Adventures</a>
+            <a href="food.html">Food</a>
+            <a href="rankings.html">Rankings</a>
+            <a href="sports.html">Sports</a>
+        </nav>
+        <main class="rankings-page">
+            <section class="intro">
+                <h1>Best Date Ideas Ranked</h1>
+                <p>Here are the top date ideas based on our recommendations, including some sponsored options to make your day even more special.</p>
+            </section>
+
+            <section class="ranking-bubbles">
+                <article class="ranking bubble">
+                    <h2>1. Mini Golf</h2>
+                    <p>Fun and engaging, mini-golf is perfect for couples looking for a playful activity. <strong>Sponsored by: Golf Adventures</strong></p>
+                </article>
+
+                <article class="ranking bubble">
+                    <h2>2. Rooftop Dining</h2>
+                    <p>Take in stunning views while enjoying a gourmet meal. <strong>Sponsored by: City Skyline Dining</strong></p>
+                </article>
+
+                <article class="ranking bubble">
+                    <h2>3. Couples Yoga</h2>
+                    <p>Relax and connect on a deeper level with a couples yoga session. <strong>Sponsored by: Harmony Wellness</strong></p>
+                </article>
+
+                <article class="ranking bubble">
+                    <h2>4. Stargazing Picnic</h2>
+                    <p>Pack a cozy blanket and enjoy a night under the stars for a romantic and budget-friendly date idea.</p>
+                </article>
+            </section>
+
+            <section>
+                <h2>Submit Your Own Ranking</h2>
+                <form action="submit_rankings.php" method="post">
+                    <table>
+                        <tr>
+                            <td><label for="name">Your Name:</label></td>
+                            <td><input type="text" id="name" name="name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Your Email:</label></td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ranking">Suggested Ranking:</label></td>
+                            <td><textarea id="ranking" name="ranking" rows="4" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit">Submit Ranking</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Top Date Rankings. All rights reserved.</p>
+        <a href="mailto:dateideas@example.com">Email us with your ideas or feedback</a>
+    </footer>
+</body>
+</html>
